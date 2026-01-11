@@ -2,23 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html, body {
   background: #050505;
-  color: #fafafa;
-  overflow-x: hidden;
-}
-
-.glow {
-  text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-::selection {
-  background: #ff0000;
-  color: white;
+  color: #e5e5e5;
+  font-family: 'JetBrains Mono', monospace;
 }
