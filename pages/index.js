@@ -94,7 +94,7 @@ export default function CommandCenter() {
 <div className="mt-10 grid gap-4">
 
   <a
-    href="https://yourname.gumroad.com/l/decisionaudit"
+    href="https://amkvk.gumroad.com/l/ninppo"
     target="_blank"
     rel="noopener noreferrer"
     className="w-full py-6 bg-red-600 text-white font-bold uppercase tracking-widest hover:bg-red-500 transition rounded-xl text-center"
