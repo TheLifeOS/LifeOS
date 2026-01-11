@@ -86,17 +86,29 @@ export default function CommandCenter() {
 
             </div>
 
-            <p className="mt-10 text-gray-400 leading-relaxed">
-              Your decision delay is not neutral. It is an active extraction of future wealth, autonomy,
-              and leverage. This protocol has now made the cost visible. What you do next is a character decision.
-            </p>
+           <p className="mt-10 text-gray-400 leading-relaxed">
+  Your decision delay is not neutral. It is an active extraction of future wealth, autonomy,
+  and leverage. This protocol has now made the cost visible. What you do next is a character decision.
+</p>
 
-            <div className="mt-10 border-t border-white/10 pt-8">
-              <input
-                placeholder="Enter email to receive your Sovereign Action Roadmap"
-                className="w-full bg-black border border-white/10 px-6 py-4 rounded-lg outline-none focus:border-red-500 transition"
-              />
-            </div>
+<div className="mt-10 grid gap-4">
+
+  <a
+    href="https://yourname.gumroad.com/l/decisionaudit"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full py-6 bg-red-600 text-white font-bold uppercase tracking-widest hover:bg-red-500 transition rounded-xl text-center"
+  >
+    Unlock Sovereign Action Roadmap — $29
+  </a>
+
+  <input
+    placeholder="Or enter email to receive your Sovereign Action Brief"
+    className="w-full bg-black border border-white/10 px-6 py-4 rounded-lg outline-none focus:border-red-500 transition"
+  />
+
+</div>
+
 
           </motion.div>
         )}
