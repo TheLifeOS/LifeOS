@@ -1,10 +1,11 @@
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./pages/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mono: ["JetBrains Mono", "monospace"]
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
