@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overthinking Tax Calculator</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: 50px auto; padding: 20px; background: #f5f5f5; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        input, select { width: 100%; padding: 12px; margin: 10px 0; border: 2px solid #ddd; border-radius: 5px; }
+        button { width: 100%; padding: 15px; background: #e74c3c; color: white; border: none; border-radius: 5px; font-size: 18px; cursor: pointer; }
+        #result { margin-top: 20px; padding: 20px; background: #ffeaa7; border-radius: 5px; display: none; }
+        #shareBtn { background: #1da1f2; margin-top: 10px; }
+        .viral-text { font-size: 24px; font-weight: bold; color: #e74c3c; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💸 What's Your Overthinking Tax?</h1>
+        <p>Calculate what your hesitation is costing you (in real money)</p>
+        
+        <input type="text" id="goal" placeholder="What are you delaying? (e.g., starting YouTube)">
+        <input type="number" id="months" placeholder="How many months delayed?">
+        <input type="number" id="potentialIncome" placeholder="Potential monthly income ($)?">
+        <input type="number" id="hours" placeholder="Hours/week overthinking?">
+        
+        <button onclick="calculateTax()">Calculate My Tax</button>
+        
+        <div id="result">
+            <p>Your Overthinking Tax:</p>
+            <div class="viral-text" id="taxAmount"></div>
+            <p id="breakdown"></p>
+            <button id="shareBtn" onclick="shareResult()">Tweet This & Face Reality</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
